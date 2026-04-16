@@ -27,4 +27,4 @@ jobs:
         run: docker push ${{ secrets.DOCKER_USERNAME }}/node-backend:latest
 
       - name: Push frontend image
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/react-frontend:latest
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/react-frontend:latestit
